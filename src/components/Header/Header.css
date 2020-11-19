@@ -1,0 +1,60 @@
+.header {
+  background-color: black;
+  padding: 15px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__brand span {
+  color: aqua;
+}
+
+.header nav ul {
+  list-style: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  color: aqua;
+}
+
+.active {
+  color: aqua;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .nav {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    width: 60%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,25 @@
+.home {
+  width: 95%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .home {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .home {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home {
+    width: 60%;
+  }
+}
