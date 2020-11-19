@@ -1,14 +1,18 @@
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Routes from './components/Routes';
+import MyRoutes from './components/MyRoutes';
+import Footer from './components/Footer/Footer';
+import './App.css';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Header />
-      <Routes />
-    </Router>
+      <div className='content'>
+        <MyRoutes />
+      </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

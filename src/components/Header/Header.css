@@ -1,5 +1,5 @@
 .header {
-  background-color: black;
+  background-color: #173f5f;
   padding: 15px;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .nav__brand span {
-  color: aqua;
+  color: #ed553b;
 }
 
 .header nav ul {
@@ -27,11 +27,11 @@
 }
 
 .nav-item:hover {
-  color: aqua;
+  color: #ed553b;
 }
 
 .active {
-  color: aqua;
+  color: #ed553b;
 }
 
 /* Small devices (landscape phones, 576px and up) */

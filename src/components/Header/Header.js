@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
@@ -23,15 +24,6 @@ const Header = () => {
           <li>
             <NavLink to='/users' className='nav-item' activeClassName='active'>
               Persons
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to='/loadable'
-              className='nav-item'
-              activeClassName='active'
-            >
-              Loadable
             </NavLink>
           </li>
         </ul>

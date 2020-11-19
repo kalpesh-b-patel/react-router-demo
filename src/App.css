@@ -9,3 +9,7 @@ body {
   box-sizing: inherit;
   width: 100%;
 }
+
+.content {
+  min-height: calc(100vh - (51.6px + 41.6px + 10px));
+}
